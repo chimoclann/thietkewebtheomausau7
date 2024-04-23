@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 style="text-align: center;">Interview Feedback</h3>
+        <h3>This type of form may be an easy way to consolidate/standardize feedback on interview candidates</h3>
+        <form action="/action_page.php">
+            <label for="cname"><b>Candidate name</b></label>
+            <input type="text" id="cname" name="fname">
+            <label for="PAF"><b>Position Applied For</b></label>
+            <input type="text" id="PAF" name="PAF"><br><br>
+            
+            <label for="level"><b>Education level</b></label>
+            <select id="level" name="level">
+                <option value="1) High School">1) High School</option>
+                <option value="2) Bachelors Degree">2) Bachelors Degree</option>
+                <option value="3) Masters Degree">3) Masters Degree</option>
+                <option value="4) Doctoral Degree">4) Doctoral Degree</option>
+                <option value="5) Professional Degree">5) Professional Degree</option>
+            </select><br><br>
+            <b>Candidate is a good fit for the position</b><br>
+            <input type="radio" id="Agree" name="Agree" value="Agree">
+            <label for="Agree">Agree</label><br>
+            <input type="radio" id="Somewhat Agree" name="Somewhat Agree" value="Somewhat Agree">
+            <label for="Somewhat Agree">Somewhat Agree</label><br>
+            <input type="radio" id="Neutral" name="Neutral" value="Neutral">
+            <label for="Neutral">Neutral</label><br>
+            <input type="radio" id="Somewhat Disagree" name="Somewhat Disagree" value="Somewhat Disagree">
+            <label for="Somewhat Disagree">Somewhat Disagree</label><br>
+            <input type="radio" id="Disagree" name="Disagree" value="Disagree">
+            <label for="Disagree">Disagree</label><br><br>
+
+            <b>Should we hire this candidate?</b>
+            <input type="radio" id="Yes" name="Yes" value="Yes">
+            <label for="Yes">Yes</label>
+            <input type="radio" id="No" name="No" value="No">
+            <label for="No">No</label><br>
+
+            <label for="Comments">Comments</label>
+            <textarea id="Comments" name="Comments" required></textarea><br><br>
+            <div align="right"><input type="submit" value="Submit">
+            </div>
+        </form>
+</body>
+</html>
